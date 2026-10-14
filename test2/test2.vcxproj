@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Bird.h" />
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Ungulate.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Ungulate.cpp" />
   </ItemGroup>
