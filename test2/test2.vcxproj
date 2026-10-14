@@ -139,10 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
     <ClInclude Include="Creature.h" />
+    <ClInclude Include="Ungulate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="Ungulate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
